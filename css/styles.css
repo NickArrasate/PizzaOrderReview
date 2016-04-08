@@ -1,10 +1,21 @@
 #orderdisplay {
   display: none;
 }
-body {
+.addressGetter {
+  display: none;
+  margin-top: 15px;
+}
+#background {
   background-image: url(../img/newpizza.jpg);
-  background-size: 1600px 1200px;
-  background-repeat: no-repeat;
+  z-index: -10;
+  background-position: top;
+  background-size: cover;
+  max-width: 90%;
+  min-width: 100%;
+  min-height: 100%;
+  position: fixed;
+  top: 0;
+  background-repeat: repeat;
 }
 .container {
   font-family: 'Bangers', cursive;
@@ -21,10 +32,12 @@ body {
   border-radius: 20px;
   padding-left: 60px;
   max-width: 65%;
+  margin-left: auto;
+  margin-right: auto;
 }
 #sizeselect {
   max-width: 180px;
-  margin-bottom: 0;
+  margin-right: 0;
 }
 #sizeselect:hover {
   cursor: pointer;
@@ -34,14 +47,14 @@ body {
   margin-right: 20px;
 }
 .checkbox{
-  text-align: left;
   margin-top: 0;
+  text-align: left;
   margin-bottom: 5px;
   max-width: 200px;
   padding-left: 0;
   padding-right: 0;
-  }
-  .ingStyle {
+}
+.ingStyle {
   font-size: 12pt;
   font-weight: 300;
   margin-right: 20px;
@@ -50,13 +63,22 @@ body {
 .btn {
   color: #161616;
   background-color: #4EC9F2;
-  margin-top: 15px;
+  margin-top: 10px;
 }
 .btn:hover {
-   background-color: #388AA6;
+  background-color: #388AA6;
+}
+.cityform, .stateform {
+  max-width: 50%;
+  display: inline-block;
 }
 label {
   min-width: 100px;
+  margin-top: 8px;
+  margin-bottom: 0px;
+}
+fieldset.form-group {
+  margin-bottom: 0;
 }
 #orderdisplay h4 {
   display: inline;
@@ -67,4 +89,33 @@ label {
 #delivery{
   margin-top: auto;
   margin-bottom: auto;
+}
+#deliveryBtn {
+  display: inline;
+}
+#addressDisplay {
+  text-align: center;
+  font-size: 16pt;
+  margin-top: 30px;
+
+}
+#prices {
+  display: inline;
+  margin-right: 20px;
+}
+#formcol {
+  margin-bottom: 0;
+  height:70px;
+}
+#pricecol {
+  padding-top: 35px;
+  padding-left: 0;
+  height: 70px;
+}
+#checkboxrow {
+  padding-bottom: 0;
+}
+#prices {
+  margin-top: 10px;
+  font-weight: 200;
 }
