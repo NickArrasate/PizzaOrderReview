@@ -1,12 +1,53 @@
 #orderdisplay {
   display: none;
 }
-
-.contact {
-  cursor: pointer;
-  color: #0088cc;
+body {
+  background-image: url(../img/newpizza.jpg);
+  background-size: 1600px 1200px;
+  background-repeat: no-repeat;
 }
-
-.contact:hover {
-  text-decoration: underline;
+.container {
+  font-family: 'Bangers', cursive;
+  background: rgba(255,255,255,0.75);
+  background: -moz-linear-gradient(left, rgba(255,255,255,0.75) 0%, rgba(255,255,255,0.75) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,0.75)), color-stop(100%, rgba(255,255,255,0.75)));
+  background: -webkit-linear-gradient(left, rgba(255,255,255,0.75) 0%, rgba(255,255,255,0.75) 100%);
+  background: -o-linear-gradient(left, rgba(255,255,255,0.75) 0%, rgba(255,255,255,0.75) 100%);
+  background: -ms-linear-gradient(left, rgba(255,255,255,0.75) 0%, rgba(255,255,255,0.75) 100%);
+  background: linear-gradient(to right, rgba(255,255,255,0.75) 0%, rgba(255,255,255,0.75) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1 );
+  margin-top: 100px;
+  padding-bottom: 20px;
+  border-radius: 20px;
+  padding-left: 60px;
+  max-width: 65%;
+}
+#sizeselect {
+  max-width: 180px;
+  margin-bottom: 0;
+}
+#sizeselect:hover {
+  cursor: pointer;
+}
+.ingpick{
+  padding-bottom: 0;
+  margin-right: 20px;
+}
+.checkbox{
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 0;
+  }
+  .ingStyle {
+  font-size: 12pt;
+  font-weight: 300;
+  margin-right: 20px;
+}
+.btn {
+  color: #161616;
+  background-color: #4EC9F2;
+  margin-top: 15px;
+}
+.btn:hover {
+   background-color: #388AA6;
 }
