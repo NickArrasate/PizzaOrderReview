@@ -36,12 +36,16 @@ body {
 .checkbox{
   text-align: left;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 5px;
+  max-width: 200px;
+  padding-left: 0;
+  padding-right: 0;
   }
   .ingStyle {
   font-size: 12pt;
   font-weight: 300;
   margin-right: 20px;
+  min-width: 100px;
 }
 .btn {
   color: #161616;
@@ -50,4 +54,17 @@ body {
 }
 .btn:hover {
    background-color: #388AA6;
+}
+label {
+  min-width: 100px;
+}
+#orderdisplay h4 {
+  display: inline;
+  max-width: 30%;
+  margin-right: 50px;
+  margin-top: 3px;
+}
+#delivery{
+  margin-top: auto;
+  margin-bottom: auto;
 }
